@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				mono: ['JetBrains Mono', 'monospace'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -89,8 +93,29 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+			},
+			typography: (theme: any) => ({
+				DEFAULT: {
+					css: {
+						'code::before': {
+							content: '""'
+						},
+						'code::after': {
+							content: '""'
+						},
+						'code': {
+							fontFamily: theme('fontFamily.mono'),
+							backgroundColor: theme('colors.gray.100'),
+							padding: '0.2rem 0.4rem',
+							borderRadius: '0.25rem',
+						}
+					}
+				}
+			})
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("tailwindcss-animate"),
+		require('@tailwindcss/typography'),
+	],
 } satisfies Config;
