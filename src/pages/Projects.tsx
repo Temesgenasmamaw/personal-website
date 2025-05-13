@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -35,38 +34,47 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Fintech Mobile App",
+    title: "Grocery Mobile App",
     description: "A Flutter-based mobile application for financial management with features like transaction tracking, budget planning, and financial analytics dashboard.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["Flutter", "Dart", "Firebase", "REST APIs", "Material Design"],
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    tech: ["Flutter", "Dart", "REST APIs"],
     link: "/projects/3",
     category: "Mobile App"
   },
   {
     id: 4,
+    title: "Fintech Mobile App",
+    description: "A Flutter-based mobile application for financial management with features like transaction tracking, budget planning, and financial analytics dashboard.",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    tech: ["Flutter", "Dart", "Firebase", "REST APIs", "Material Design"],
+    link: "/projects/4",
+    category: "Mobile App"
+  },
+  {
+    id: 5,
     title: "Plant Disease Classification",
     description: "AI-based application that uses computer vision to identify plant diseases from images. Implemented using TensorFlow and deployed as both a web and mobile application.",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     tech: ["Python", "TensorFlow", "CNN", "Flutter", "RESTful API"],
-    link: "/projects/4",
-    category: "AI & ML"
-  },
-  {
-    id: 5,
-    title: "Crop Production Prediction",
-    description: "Machine learning system that predicts crop yield based on various parameters like soil quality, weather conditions, and historical data to help farmers optimize their production.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["Python", "Scikit-learn", "Pandas", "Data Analysis", "Regression Models"],
     link: "/projects/5",
     category: "AI & ML"
   },
   {
     id: 6,
+    title: "Crop Production Prediction",
+    description: "Machine learning system that predicts crop yield based on various parameters like soil quality, weather conditions, and historical data to help farmers optimize their production.",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    tech: ["Python", "Scikit-learn", "Pandas", "Data Analysis", "Regression Models"],
+    link: "/projects/6",
+    category: "AI & ML"
+  },
+  {
+    id: 7,
     title: "Fraud Detection System",
     description: "AI-powered system that analyzes transaction patterns to detect and flag potentially fraudulent activities in real-time, helping businesses reduce financial losses.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     tech: ["Python", "TensorFlow", "Anomaly Detection", "Data Mining", "Statistical Analysis"],
-    link: "/projects/6",
+    link: "/projects/7",
     category: "AI & ML"
   }
 ];

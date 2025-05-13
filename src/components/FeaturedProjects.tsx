@@ -14,14 +14,22 @@ const featuredProjects = [
   },
   {
     id: 2,
-    title: "Fintech Mobile App",
+    title: "Grocery Mobile App",
     description: "A Flutter-based mobile application for financial management with features like transaction tracking, budget planning, and financial analytics dashboard.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    tech: ["Flutter", "Dart", "REST APIs"],
+    link: "/projects/3"
+  },
+  {
+    id: 3,
+    title: "Fintech Mobile App",
+    description: "A Flutter-based mobile application for financial management with features like transaction tracking, budget planning, and financial analytics dashboard.",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
     tech: ["Flutter", "Dart", "Firebase", "REST APIs", "Material Design"],
     link: "/projects/2"
   },
   {
-    id: 3,
+    id: 4,
     title: "Plant Disease Classification",
     description: "AI-based application that uses computer vision to identify plant diseases from images. Implemented using TensorFlow and deployed as both a web and mobile application.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
