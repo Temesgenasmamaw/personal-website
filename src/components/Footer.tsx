@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
+// Note: Linkedin is deprecated but still the current name in lucide-react
 import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -16,15 +16,15 @@ const Footer = () => {
               Software engineer passionate about building elegant solutions to complex problems.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <a href="https://github.com/Temesgenasmamaw" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/in/temesgen-asmamaw21/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <Linkedin size={20} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                <Twitter size={20} />
-              </a>
+              {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                <email size={20} />
+              </a> */}
             </div>
           </div>
           
@@ -41,8 +41,8 @@ const Footer = () => {
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <p className="text-gray-300 mb-2">Email: hello@example.com</p>
-            <p className="text-gray-300">Based in San Francisco, CA</p>
+            <p className="text-gray-300 mb-2">Email: tasmamaw16@gmail.com</p>
+            <p className="text-gray-300">Addis Ababa, Ethiopia</p>
           </div>
         </div>
         

@@ -1,14 +1,19 @@
 
+import { title } from 'process';
 import React from 'react';
 
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React", "HTML/CSS", "JavaScript", "TypeScript", "Flutter", "Material UI", "Tailwind CSS"]
+    skills: ["React", "NextJs", "JavaScript", "TypeScript", "Dart","Flutter", "Shadcn UI", "Tailwind CSS"]
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express", "MongoDB", "RESTful APIs", "Firebase", "GraphQL"]
+    skills: ["Node.js", "Express","Python","RESTful APIs"]
+  },
+  {
+    title:"Database",
+    skills: ["MySql", "PostgreSql", "MongoDB"]
   },
   {
     title: "AI & ML",
@@ -16,7 +21,7 @@ const skillCategories = [
   },
   {
     title: "Tools & Others",
-    skills: ["Git", "Docker", "Agile Methodology", "CI/CD", "VS Code", "Figma", "Postman"]
+    skills: ["Git", "Docker","VS Code", "Postman","Jupyter Notebook"]
   }
 ];
 

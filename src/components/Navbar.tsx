@@ -17,7 +17,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-xl font-bold text-white font-mono">
-              Dev<span className="text-blue-500">Portfolio</span>
+            {/* <img src="images/logo.png" alt="Dev" className="mr-2" height={70} width={50} /> */}
+              Dev<span className="text-blue-500">Temesgen</span>
             </Link>
           </div>
           <div className="hidden md:block">

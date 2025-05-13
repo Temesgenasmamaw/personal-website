@@ -49,7 +49,7 @@ const Blog = () => {
         {/* Blog Posts */}
         <section className="py-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            {filteredPosts.length > 0 ? (
+            {/* {filteredPosts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filteredPosts.map((post) => (
                   <BlogCard key={post.id} post={post} />
@@ -60,7 +60,7 @@ const Blog = () => {
                 <h3 className="text-xl font-medium mb-2">No articles found</h3>
                 <p className="text-gray-500">Try adjusting your search query.</p>
               </div>
-            )}
+            )} */}
           </div>
         </section>
       </main>

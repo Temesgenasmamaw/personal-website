@@ -15,11 +15,12 @@ interface Project {
 }
 
 const projects: Project[] = [
+  // Web Apps
   {
     id: 1,
     title: "Quiz Application",
     description: "A full-stack MERN application for creating and taking quizzes. Features include user authentication, quiz creation tools, leaderboards, and real-time scoring.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://www.codewithrandom.com/wp-content/uploads/2022/08/Thumbnail-Bhai-6.png",
     tech: ["React", "Node.js", "MongoDB", "Express", "JWT"],
     link: "/projects/1",
     category: "Web App"
@@ -28,43 +29,55 @@ const projects: Project[] = [
     id: 2,
     title: "Course Selling Platform",
     description: "A comprehensive MERN stack platform for instructors to create and sell courses online, with features like content management, payment integration, and student progress tracking.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "images/course_selling.png",
     tech: ["React", "Redux", "Node.js", "MongoDB", "Express", "Stripe"],
     link: "/projects/2",
     category: "Web App"
   },
+  // Mobile Apps
   {
     id: 3,
     title: "Fintech Mobile App",
     description: "A Flutter-based mobile application for financial management with features like transaction tracking, budget planning, and financial analytics dashboard.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["Flutter", "Dart", "Firebase", "REST APIs", "Material Design"],
+    image: "https://fireartstudio.s3-accelerate.amazonaws.com/wp-content/uploads/2020/03/8d2dbcf715a859b51068a726f75d1bc9-1024x768.png",
+    tech: ["Flutter", "Dart", "Firebase", "REST APIs"],
     link: "/projects/3",
     category: "Mobile App"
   },
   {
     id: 4,
+    title: "Grocery Mobile App",
+    description: "A Flutter-based mobile app for seamless grocery shopping, featuring barcode scanning, smart shopping lists, price comparisons, and personalized deals. Manage your pantry, track expenses, and get AI-powered recommendations for meal planning.",
+    image: "https://d3l9a8mvoa6cl8.cloudfront.net/wp-content/uploads/sites/3/2022/04/03170556/app-like-instacart-development-min.jpg",
+    tech: ["Flutter", "Dart", "Firebase", "REST APIs"],
+    link: "/projects/3",
+    category: "Mobile App"
+},
+
+// AI projects
+  {
+    id: 5,
     title: "Plant Disease Classification",
     description: "AI-based application that uses computer vision to identify plant diseases from images. Implemented using TensorFlow and deployed as both a web and mobile application.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://globalowls.com/wp-content/uploads/2025/04/What-is-an-AI-Plant-Disease-Identifier.jpg",
     tech: ["Python", "TensorFlow", "CNN", "Flutter", "RESTful API"],
     link: "/projects/4",
     category: "AI & ML"
   },
   {
-    id: 5,
+    id: 6,
     title: "Crop Production Prediction",
     description: "Machine learning system that predicts crop yield based on various parameters like soil quality, weather conditions, and historical data to help farmers optimize their production.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://onlinelibrary.wiley.com/cms/asset/c488f845-17e2-42a6-ab7e-7e9254752b3f/js2022923-fig-0016-m.jpg",
     tech: ["Python", "Scikit-learn", "Pandas", "Data Analysis", "Regression Models"],
     link: "/projects/5",
     category: "AI & ML"
   },
   {
-    id: 6,
+    id: 7,
     title: "Fraud Detection System",
     description: "AI-powered system that analyzes transaction patterns to detect and flag potentially fraudulent activities in real-time, helping businesses reduce financial losses.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    image: "https://financialcrimeacademy.org/wp-content/uploads/2022/05/2-43-1024x576.jpg",
     tech: ["Python", "TensorFlow", "Anomaly Detection", "Data Mining", "Statistical Analysis"],
     link: "/projects/6",
     category: "AI & ML"
@@ -165,12 +178,12 @@ const Projects = () => {
                       ))}
                     </div>
                     
-                    <a
+                    {/* <a
                       href={project.link}
-                      className="text-blue-600 dark:text-blue-400 font-medium hover:underline"
+                      className="text-blue-600 dark:text-blue-400 font-medium hover:underline" 
                     >
                       View Project →
-                    </a>
+                    </a> */}
                   </CardFooter>
                 </Card>
               ))}

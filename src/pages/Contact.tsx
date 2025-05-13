@@ -146,30 +146,30 @@ const Contact = () => {
                   <div className="space-y-4">
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Email</h3>
-                      <p className="text-gray-600 dark:text-gray-400">hello@example.com</p>
+                      <p className="text-gray-600 dark:text-gray-400">tasmamaw16@gmail.com</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Location</h3>
-                      <p className="text-gray-600 dark:text-gray-400">San Francisco, CA</p>
+                      <p className="text-gray-600 dark:text-gray-400">Addis Ababa, Ethiopia</p>
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Social</h3>
                       <div className="flex space-x-4">
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400">
+                        <a href="https://github.com/Temesgenasmamaw" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400">
                           GitHub
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400">
+                        <a href="https://www.linkedin.com/in/temesgen-asmamaw21/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400">
                           LinkedIn
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400">
+                        {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400">
                           Twitter
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   </div>
                 </div>
                 
-                <div>
+                {/* <div>
                   <h2 className="text-2xl font-bold mb-4">Availability</h2>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
                     I'm currently available for freelance work and open to discussing full-time opportunities.
@@ -177,7 +177,7 @@ const Contact = () => {
                   <p className="text-gray-600 dark:text-gray-400">
                     Typical response time: within 24-48 hours
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -39,7 +39,7 @@ const Hero = () => {
               </Link>
             </div>
             
-            <div className="mt-8 text-gray-400">
+            {/* <div className="mt-8 text-gray-400">
               <p className="font-mono">Current tech stack:</p>
               <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
                 <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">React</span>
@@ -48,7 +48,7 @@ const Hero = () => {
                 <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">Flutter</span>
                 <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">Python</span>
               </div>
-            </div>
+            </div> */}
           </div>
           
           <div className="hidden md:block md:w-2/5">
@@ -56,7 +56,8 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-blue-600 opacity-20 animate-pulse"></div>
               <div className="absolute inset-2 rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                // src="images/Temesgen_Asmamaw.jpeg"
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2344&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Temesgen Asmamaw"
                   className="w-full h-full object-cover opacity-90"
                 />
