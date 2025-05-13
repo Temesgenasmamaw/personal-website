@@ -4,19 +4,19 @@ import React from 'react';
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "HTML/CSS", "JavaScript"]
+    skills: ["React", "HTML/CSS", "JavaScript", "TypeScript", "Flutter", "Material UI", "Tailwind CSS"]
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express", "Python", "FastAPI", "Django", "Java", "Spring Boot"]
+    skills: ["Node.js", "Express", "MongoDB", "RESTful APIs", "Firebase", "GraphQL"]
   },
   {
-    title: "DevOps & Cloud",
-    skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "GitHub Actions", "Linux"]
+    title: "AI & ML",
+    skills: ["Python", "TensorFlow", "Machine Learning", "Computer Vision", "Data Analysis", "Prediction Models"]
   },
   {
-    title: "Databases",
-    skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "DynamoDB", "Firestore"]
+    title: "Tools & Others",
+    skills: ["Git", "Docker", "Agile Methodology", "CI/CD", "VS Code", "Figma", "Postman"]
   }
 ];
 
@@ -27,7 +27,8 @@ const Skills = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Technical Skills</h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            I've worked with a variety of technologies throughout my career. Here's a snapshot of my technical expertise.
+            With experience in full-stack development, mobile applications, and AI/ML projects, 
+            here's a snapshot of my technical expertise.
           </p>
         </div>
         

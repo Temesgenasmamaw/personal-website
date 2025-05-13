@@ -18,12 +18,12 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               <span className="block">Hi, I'm </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
-                John Developer
+                Temesgen Asmamaw
               </span>
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto md:mx-0">
-              Software Engineer specializing in web development, cloud architecture, and building scalable applications.
+              Software Engineer specializing in full-stack development, mobile applications with Flutter, and AI-driven solutions.
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
@@ -43,10 +43,10 @@ const Hero = () => {
               <p className="font-mono">Current tech stack:</p>
               <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
                 <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">React</span>
-                <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">Next.js</span>
-                <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">TypeScript</span>
                 <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">Node.js</span>
-                <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">AWS</span>
+                <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">MongoDB</span>
+                <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">Flutter</span>
+                <span className="px-3 py-1 bg-slate-800 rounded-full text-sm">Python</span>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Hero = () => {
               <div className="absolute inset-2 rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                  alt="Developer"
+                  alt="Temesgen Asmamaw"
                   className="w-full h-full object-cover opacity-90"
                 />
               </div>

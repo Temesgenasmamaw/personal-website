@@ -17,57 +17,57 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce application with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment processing.",
+    title: "Quiz Application",
+    description: "A full-stack MERN application for creating and taking quizzes. Features include user authentication, quiz creation tools, leaderboards, and real-time scoring.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+    tech: ["React", "Node.js", "MongoDB", "Express", "JWT"],
     link: "/projects/1",
     category: "Web App"
   },
   {
     id: 2,
-    title: "AI Task Management",
-    description: "An AI-powered task management application that helps users organize their work and prioritize tasks based on machine learning algorithms.",
+    title: "Course Selling Platform",
+    description: "A comprehensive MERN stack platform for instructors to create and sell courses online, with features like content management, payment integration, and student progress tracking.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL"],
+    tech: ["React", "Redux", "Node.js", "MongoDB", "Express", "Stripe"],
     link: "/projects/2",
-    category: "AI & ML"
-  },
-  {
-    id: 3,
-    title: "Real-time Chat Application",
-    description: "A scalable real-time chat application supporting one-on-one and group conversations with features like read receipts and rich media sharing.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["React", "WebSockets", "Node.js", "Redis", "AWS"],
-    link: "/projects/3",
     category: "Web App"
   },
   {
-    id: 4,
-    title: "Inventory Management System",
-    description: "A comprehensive inventory management system designed for small to medium-sized businesses, with barcode scanning, reporting, and supplier management.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["React", "TypeScript", "Node.js", "MySQL", "Redux"],
-    link: "/projects/4",
-    category: "Enterprise"
-  },
-  {
-    id: 5,
-    title: "Fitness Tracking Mobile App",
-    description: "A cross-platform mobile application for tracking workouts, nutrition, and fitness progress with social features and integration with wearable devices.",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["React Native", "Firebase", "Redux", "GraphQL", "Expo"],
-    link: "/projects/5",
+    id: 3,
+    title: "Fintech Mobile App",
+    description: "A Flutter-based mobile application for financial management with features like transaction tracking, budget planning, and financial analytics dashboard.",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    tech: ["Flutter", "Dart", "Firebase", "REST APIs", "Material Design"],
+    link: "/projects/3",
     category: "Mobile App"
   },
   {
+    id: 4,
+    title: "Plant Disease Classification",
+    description: "AI-based application that uses computer vision to identify plant diseases from images. Implemented using TensorFlow and deployed as both a web and mobile application.",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    tech: ["Python", "TensorFlow", "CNN", "Flutter", "RESTful API"],
+    link: "/projects/4",
+    category: "AI & ML"
+  },
+  {
+    id: 5,
+    title: "Crop Production Prediction",
+    description: "Machine learning system that predicts crop yield based on various parameters like soil quality, weather conditions, and historical data to help farmers optimize their production.",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+    tech: ["Python", "Scikit-learn", "Pandas", "Data Analysis", "Regression Models"],
+    link: "/projects/5",
+    category: "AI & ML"
+  },
+  {
     id: 6,
-    title: "Customer Analytics Dashboard",
-    description: "A data visualization dashboard for businesses to track customer behavior, sales metrics, and marketing campaign performance in real-time.",
+    title: "Fraud Detection System",
+    description: "AI-powered system that analyzes transaction patterns to detect and flag potentially fraudulent activities in real-time, helping businesses reduce financial losses.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["React", "D3.js", "Node.js", "PostgreSQL", "AWS"],
+    tech: ["Python", "TensorFlow", "Anomaly Detection", "Data Mining", "Statistical Analysis"],
     link: "/projects/6",
-    category: "Data Viz"
+    category: "AI & ML"
   }
 ];
 
@@ -88,7 +88,7 @@ const Projects = () => {
               <h1 className="text-4xl font-bold text-white mb-4">Projects</h1>
               <p className="text-xl text-gray-300 max-w-2xl mx-auto">
                 A collection of my work across various domains including web applications, 
-                mobile apps, and enterprise solutions.
+                mobile apps, and AI/ML solutions.
               </p>
             </div>
           </div>

@@ -6,26 +6,26 @@ import { Link } from 'react-router-dom';
 const featuredProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce application with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment processing.",
+    title: "Quiz Application",
+    description: "A full-stack MERN application for creating and taking quizzes. Features include user authentication, quiz creation tools, leaderboards, and real-time scoring.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
+    tech: ["React", "Node.js", "MongoDB", "Express", "JWT"],
     link: "/projects/1"
   },
   {
     id: 2,
-    title: "AI Task Management",
-    description: "An AI-powered task management application that helps users organize their work and prioritize tasks based on machine learning algorithms.",
+    title: "Fintech Mobile App",
+    description: "A Flutter-based mobile application for financial management with features like transaction tracking, budget planning, and financial analytics dashboard.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL"],
+    tech: ["Flutter", "Dart", "Firebase", "REST APIs", "Material Design"],
     link: "/projects/2"
   },
   {
     id: 3,
-    title: "Real-time Chat Application",
-    description: "A scalable real-time chat application supporting one-on-one and group conversations with features like read receipts and rich media sharing.",
+    title: "Plant Disease Classification",
+    description: "AI-based application that uses computer vision to identify plant diseases from images. Implemented using TensorFlow and deployed as both a web and mobile application.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-    tech: ["React", "WebSockets", "Node.js", "Redis", "AWS"],
+    tech: ["Python", "TensorFlow", "CNN", "Flutter", "RESTful API"],
     link: "/projects/3"
   }
 ];

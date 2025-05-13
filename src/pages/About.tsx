@@ -31,30 +31,30 @@ const About = () => {
                     <div className="relative rounded-lg overflow-hidden mb-6">
                       <img
                         src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                        alt="John Developer"
+                        alt="Temesgen Asmamaw"
                         className="w-full h-auto rounded-lg"
                       />
                     </div>
                     
-                    <h2 className="text-2xl font-bold mb-2">John Developer</h2>
-                    <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">Senior Software Engineer</p>
+                    <h2 className="text-2xl font-bold mb-2">Temesgen Asmamaw</h2>
+                    <p className="text-blue-600 dark:text-blue-400 font-medium mb-4">Full Stack Developer & AI Enthusiast</p>
                     
                     <div className="space-y-2 text-gray-600 dark:text-gray-400">
                       <div className="flex items-center">
                         <span className="font-medium mr-2">Location:</span>
-                        <span>San Francisco, CA</span>
+                        <span>Ethiopia</span>
                       </div>
                       <div className="flex items-center">
                         <span className="font-medium mr-2">Experience:</span>
-                        <span>7+ years</span>
+                        <span>2+ years</span>
                       </div>
                       <div className="flex items-center">
                         <span className="font-medium mr-2">Education:</span>
-                        <span>B.S. Computer Science</span>
+                        <span>B.Sc. Software Engineering</span>
                       </div>
                       <div className="flex items-center">
                         <span className="font-medium mr-2">Languages:</span>
-                        <span>English, Spanish</span>
+                        <span>English, Amharic</span>
                       </div>
                     </div>
                   </div>
@@ -66,28 +66,28 @@ const About = () => {
                 <div className="prose prose-lg dark:prose-invert max-w-none">
                   <h2>My Journey</h2>
                   <p>
-                    Hello! I'm John, a passionate software engineer with over 7 years of experience building 
-                    web and mobile applications. My journey in tech started during my undergraduate studies 
-                    when I built my first website for a local non-profit organization.
+                    Hello! I'm Temesgen, a passionate software engineer with over 2 years of experience building 
+                    web applications, mobile apps, and AI solutions. My journey in tech began during my studies 
+                    at Bahir Dar University where I graduated with a degree in Software Engineering in July 2023.
                   </p>
                   
                   <p>
-                    After graduating with a degree in Computer Science, I joined a startup where I 
-                    helped build a SaaS platform from the ground up. This experience taught me how to 
-                    wear multiple hats and solve problems across the entire stack.
+                    Since graduating, I've been working on diverse projects spanning multiple domains. I've developed 
+                    full-stack applications using the MERN stack, created mobile applications with Flutter, and 
+                    implemented AI solutions for real-world problems like plant disease classification and crop 
+                    production prediction.
                   </p>
                   
                   <p>
-                    Over the years, I've worked with companies of all sizes, from early-stage startups 
-                    to Fortune 500 enterprises. Each experience has shaped my approach to software development 
-                    and reinforced my belief in writing clean, maintainable code.
+                    I'm particularly passionate about using technology to solve practical problems, especially 
+                    in areas like agriculture where AI can make a significant impact in developing regions.
                   </p>
                   
                   <h2>My Approach</h2>
                   <p>
                     I believe that the best software is built with both technical excellence and user empathy. 
                     I'm passionate about creating solutions that not only work well but are also intuitive and 
-                    enjoyable to use.
+                    accessible to users with varying levels of technical expertise.
                   </p>
                   
                   <p>
@@ -97,53 +97,53 @@ const About = () => {
                   <ul>
                     <li><strong>User-Centric Design</strong>: Building with the end-user in mind first and foremost.</li>
                     <li><strong>Clean, Maintainable Code</strong>: Writing code that's easy to understand and extend.</li>
-                    <li><strong>Performance Matters</strong>: Optimizing for speed and efficiency across all layers of the stack.</li>
+                    <li><strong>Performance Optimization</strong>: Ensuring applications run efficiently on all devices.</li>
                     <li><strong>Continuous Learning</strong>: Staying current with industry trends and best practices.</li>
                   </ul>
                   
                   <h2>Professional Experience</h2>
                   
                   <div className="mb-8 border-l-4 border-blue-500 pl-4">
-                    <h3 className="text-xl font-bold">Senior Software Engineer</h3>
-                    <p className="text-gray-600 dark:text-gray-400">TechCorp Inc. • 2020 - Present</p>
-                    <p>
-                      Leading the development of a cloud-based SaaS platform serving over 50,000 users.
-                      Implemented microservices architecture that improved system reliability by 35%.
-                      Mentoring junior developers and driving adoption of best practices across the engineering team.
-                    </p>
-                  </div>
-                  
-                  <div className="mb-8 border-l-4 border-blue-500 pl-4">
                     <h3 className="text-xl font-bold">Full Stack Developer</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Innovation Labs • 2017 - 2020</p>
+                    <p className="text-gray-600 dark:text-gray-400">Freelance & Project-based • 2023 - Present</p>
                     <p>
-                      Developed and maintained multiple client applications using React, Node.js, and AWS.
-                      Led the migration from a monolithic architecture to microservices.
-                      Reduced page load time by 60% through performance optimizations and code splitting.
+                      Developing web applications using the MERN stack (MongoDB, Express, React, Node.js).
+                      Creating mobile applications with Flutter and Dart.
+                      Implementing AI/ML solutions using Python, TensorFlow, and related technologies.
                     </p>
                   </div>
                   
                   <div className="mb-8 border-l-4 border-blue-500 pl-4">
-                    <h3 className="text-xl font-bold">Software Developer</h3>
-                    <p className="text-gray-600 dark:text-gray-400">StartUp Vision • 2015 - 2017</p>
+                    <h3 className="text-xl font-bold">Software Engineering Intern</h3>
+                    <p className="text-gray-600 dark:text-gray-400">Tech Startup • 2022 - 2023</p>
                     <p>
-                      Joined as an early employee and contributed to building the company's first product.
-                      Implemented key features that helped secure Series A funding.
-                      Worked across the full stack including frontend, backend, and DevOps.
+                      Assisted in developing features for web and mobile applications.
+                      Participated in code reviews and agile development processes.
+                      Gained hands-on experience with industry-standard development workflows.
+                    </p>
+                  </div>
+                  
+                  <h2>Education</h2>
+                  <div className="mb-8 border-l-4 border-blue-500 pl-4">
+                    <h3 className="text-xl font-bold">Bachelor of Science in Software Engineering</h3>
+                    <p className="text-gray-600 dark:text-gray-400">Bahir Dar University • Graduated July 2023</p>
+                    <p>
+                      Comprehensive curriculum covering software development, database management, algorithms, 
+                      computer networks, and software engineering principles.
                     </p>
                   </div>
                   
                   <h2>Beyond Coding</h2>
                   <p>
-                    When I'm not writing code, you can find me hiking in the mountains, experimenting 
-                    with new cooking recipes, or reading science fiction. I'm also an active member of 
-                    the local tech community, where I occasionally speak at meetups and mentor aspiring 
-                    developers.
+                    When I'm not writing code, you can find me exploring new technologies, contributing to 
+                    open-source projects, and participating in tech communities. I'm also interested in how 
+                    technology can be used to address challenges in agriculture, education, and healthcare in 
+                    developing regions.
                   </p>
                   
                   <p>
-                    I'm always open to discussing new opportunities, technical challenges, or just 
-                    chatting about the latest tech trends. Feel free to reach out!
+                    I'm always open to discussing new opportunities, technical challenges, or collaborating 
+                    on interesting projects. Feel free to reach out!
                   </p>
                 </div>
               </div>
